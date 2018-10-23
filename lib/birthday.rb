@@ -5,7 +5,7 @@ birthday_kids = {
 }
 
 def happy_birthday(birthday_kids)
-  birthday_kids {|x, y| puts ""
+  birthday_kids {|x, y| puts Happy Birthday #{x}! You are now #{y} years old!"}
 end
 
 
